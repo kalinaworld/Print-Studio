@@ -9,7 +9,7 @@ The app does the color conversion itself (Little CMS), the same way Photoshop Ma
 
 ## Build and install
 
-    cd ~/Library/CloudStorage/Dropbox/CoWork/PrinterDashboard
+    cd Print-Studio
     ./build.sh --open
 
 Installs to ~/Applications/Kalina Print Studio.app. The build folder lives in ~/Library/Caches so Dropbox stays quiet.
