@@ -1,0 +1,114 @@
+{
+  "cols" : 2,
+  "notes" : [
+
+  ],
+  "page" : {
+    "h" : 792,
+    "rect" : [
+      15.299999999999978,
+      8.4000000000000004,
+      581.40000000000009,
+      775.20000000000005
+    ],
+    "w" : 612
+  },
+  "patches" : [
+    {
+      "col" : 0,
+      "expected" : [
+        255,
+        43,
+        4
+      ],
+      "name" : "red",
+      "row" : 0,
+      "src" : [
+        255,
+        0,
+        0
+      ]
+    },
+    {
+      "col" : 1,
+      "expected" : [
+        149,
+        255,
+        32
+      ],
+      "name" : "green",
+      "row" : 0,
+      "src" : [
+        0,
+        255,
+        0
+      ]
+    },
+    {
+      "col" : 0,
+      "expected" : [
+        34,
+        22,
+        254
+      ],
+      "name" : "blue",
+      "row" : 1,
+      "src" : [
+        0,
+        0,
+        255
+      ]
+    },
+    {
+      "col" : 1,
+      "expected" : [
+        114,
+        123,
+        114
+      ],
+      "name" : "gray50",
+      "row" : 1,
+      "src" : [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "col" : 0,
+      "expected" : [
+        181,
+        126,
+        96
+      ],
+      "name" : "skin",
+      "row" : 2,
+      "src" : [
+        200,
+        150,
+        120
+      ]
+    },
+    {
+      "col" : 1,
+      "expected" : [
+        2,
+        27,
+        72
+      ],
+      "name" : "shadow",
+      "row" : 2,
+      "src" : [
+        30,
+        40,
+        60
+      ]
+    }
+  ],
+  "pdfs" : {
+    "device" : "test-device.pdf",
+    "tagged" : "test-tagged.pdf"
+  },
+  "profile" : "cifa_p900_ragphot310_m_bk.icc",
+  "rows" : 3
+}

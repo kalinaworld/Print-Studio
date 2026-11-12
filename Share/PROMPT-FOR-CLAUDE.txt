@@ -1,0 +1,10 @@
+This folder is a small native Mac app, Kalina Print Studio, that replaces Photoshop's print dialog for an Epson SC-P900. Read START-HERE.md and README.md first.
+
+Please:
+1. Check that I have Xcode command line tools and macOS 13+, and help me install them if not.
+2. Build and install the app with ./build.sh --open, fixing any build errors.
+3. Look at my printer and the ICC profiles in ~/Library/ColorSync/Profiles, and make sure the paper list works for the papers I actually use.
+4. Set up the Photoshop script (Photoshop/SendToP900Print.jsx) so it shows up under File > Scripts.
+5. Ask me which printer I have and which paper sizes and defaults I want, then adjust the app to match.
+
+Do a paper-free test (Preview PDF) before anything goes to the printer.

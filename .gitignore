@@ -1,0 +1,28 @@
+# Personal system/diagnostic dumps
+env.txt
+net-scan.txt
+net-scan2.txt
+printer-info.txt
+printer-status.txt
+profiles.txt
+color-check.txt
+hotpress-search.txt
+ipp-usb.txt
+
+# Screenshots
+CleanShot*.png
+
+# Release zip (binary artifact)
+Share/*.zip
+
+# Selftest large generated files (raw raster outputs, too big for GitHub)
+selftest/*.ras
+selftest/*.pdf
+
+# macOS
+.DS_Store
+
+# Swift build artifacts (go to ~/Library/Caches via build.sh, but just in case)
+.build/
+*.xcodeproj/
+*.xcworkspace/
