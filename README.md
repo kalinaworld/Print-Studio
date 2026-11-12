@@ -12,7 +12,7 @@ The app does the color conversion itself (Little CMS), the same way Photoshop Ma
     cd Print-Studio
     ./build.sh --open
 
-Installs to ~/Applications/Kalina Print Studio.app. The build folder lives in ~/Library/Caches so Dropbox stays quiet.
+Installs to ~/Applications/Kalina Print Studio.app.
 
 ## From Photoshop
 
@@ -78,4 +78,4 @@ the printer, and compares the colors. Uses no ink or paper. Report goes to color
 
 - Sources/P900Print: the app (SwiftUI)
 - Sources/CLcms2: Little CMS (MIT license) plus a small shim
-- EPSON_SC_P900_Series.ppd, printer-info.txt, profiles.txt: reference dumps from your Mac
+- EPSON_SC_P900_Series.ppd: reference dump from the installed Epson driver
